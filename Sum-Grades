@@ -1,0 +1,7 @@
+let grades = [10, 18, 14, 15]
+
+let sum  = 0
+grades.forEach(function(grade) {
+   sum = sum + grade
+})
+console.log(sum)
